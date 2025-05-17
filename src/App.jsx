@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      <h1>Customer List</h1>
+  
       <ul>
         {customers.map((customer, index) => (
           <li key={index}>{JSON.stringify(customer)}</li>
